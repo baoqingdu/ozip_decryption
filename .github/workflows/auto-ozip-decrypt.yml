@@ -50,4 +50,4 @@ jobs:
        - name: Upload Decrypted zip
          run: |
              cd out
-             curl --upload-file ./$FINAL_ZIP_NAME https://transfer.sh/hello.txt https://transfer.sh/66nb8/$FINAL_ZIP_NAME  #file will be uploaded to bashupload, so mirror it if you are decrypting for community uses.
+             curl --upload-file ./$FINAL_ZIP_NAME https://transfer.sh/$FINAL_ZIP_NAME https://transfer.sh/66nb8/$FINAL_ZIP_NAME  #file will be uploaded to bashupload, so mirror it if you are decrypting for community uses.
